@@ -1,0 +1,104 @@
+/* common styles */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 16px;
+  color: #757575;
+}
+
+.btn-primary {
+  background-color: #e55473;
+  color: white;
+  border: 0;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+
+/* header styles */
+.header {
+  background-color: #fceef1;
+  padding: 60px 150px;
+  height: 400px;
+  position: relative;
+}
+
+.banner-container,
+#ban-img {
+  display: flex;
+  padding: 50px 50px 0;
+  width: 50%;
+}
+
+#ban-img {
+  max-width: 300px;
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+}
+
+.banner-title {
+  font-size: 45px;
+  text-align: left;
+  font-weight: 900;
+}
+
+.banner-description {
+  color: #474747;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
+}
+
+/* feature styles */
+.feature-flowers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-flower {
+  width: 300px;
+}
+
+#feature-1 {
+  background-image: url("../images/rect3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#feature-2 {
+  background-image: url("../images/rect4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#feature-3 {
+  background-image: url("../images/rect5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flower {
+  width: 150px;
+  height: 277px;
+  padding: 70px;
+}
